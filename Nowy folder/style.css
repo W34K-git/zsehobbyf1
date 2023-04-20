@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: "Audiowide", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+ 
+.logo {
+    position: fixed;
+    width: 10%;
+    height: 10%;
+    top: 0;
+    left: 50px;
+}
+
+.grad {
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    text-align: center;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 20px;
+    z-index: 88888;
+}
+  
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,177,177,1) 0%, rgba(255,255,255,1) 100%);
+}
+  
+nav a:hover {
+    color: rgb(255, 0, 0);
+    border: 2px rgba(255,177,177,1);
+    background: rgb(255,177,177);
+    background: radial-gradient(circle, rgba(255,177,177,1) 0%, rgba(255,255,255,1) 100%);
+    font-size: 120%;
+    text-shadow: 2px 2px 2px #ffffff;
+}
+
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,177,177,0.8) 5%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(255,177,177,0.8) 95%);
+    padding: 0;
+    margin: 0;
+}
+
+article{
+    scroll-margin-top: 11rem; 
+}
+
+main{
+    width: 850px;
+    border: 5px solid #FFC1C1;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 2em;
+}
+
+audio{
+    position: relative;
+}
+
+.wszyscy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96.875%;
+}
+
+table{
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    border: #FFC1C1;
+    width: 775px;
+}
+
+table, th, td {
+    border: 2px solid #FFC1C1;
+    border-collapse: collapse;
+}
+
+th{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 125%;
+}
+
+h2{
+    background-color: #FFC1C1;
+    color: red;
+    text-align: center;
+    border-radius: 2em;
+}
+
+footer{
+    width: 850px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #FFC1C1;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #FFC1C1; 
+}
+      
+::-webkit-scrollbar-thumb {
+    background: #FFC1C1; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white; 
+}
+
+tr:nth-child(even) {
+    background: rgb(255,255,255);
+}
+tr:nth-child(odd) {
+    background: #FFC1C1; 
+}
